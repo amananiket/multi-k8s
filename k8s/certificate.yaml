@@ -10,9 +10,11 @@ spec:
   commonName: amananiket.com
   dnsNames:
     - kubernetes.amananiket.com
+    - amananiket.com
   acme:
     config:
       - http01:
           ingressClass: nginx
         domains:
           - kubernetes.amananiket.com
+          - amananiket.com
